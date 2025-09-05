@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(150, 150, 150);
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-inline: 2rem;
+    height: 5rem;
+}
+
+header img{
+    width: 3rem;
+}
+
+nav a{
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+nav li:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 300ms;
+}
+
+main img{
+  width: 40rem;
+  border-radius: 30px;
+  margin-bottom: 40px;
+}
